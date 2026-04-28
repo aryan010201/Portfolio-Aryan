@@ -74,19 +74,23 @@ body {
 }
 
 .profile-img-container {
-    
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    overflow: hidden;   /* VERY IMPORTANT */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-
 }
 
-.person-icon {
-    font-size: 10rem;
-    color: var(--accent);
-    opacity: 0.8;
-}
+
 
 .about-section {
     padding: 100px 10%;
