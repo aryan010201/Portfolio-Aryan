@@ -76,7 +76,7 @@ body {
 .profile-img-container {
     width: 380px;
     height: 380px;
-    border-radius: 50%;
+    border-radius: 180px;
     border: 1px solid rgba(212, 175, 55, 0.3);
     display: flex;
     justify-content: center;
